@@ -1,0 +1,12 @@
+.tab{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    color: white;
+    display: flex;
+    font-size: 18px;
+}
+.item:hover{
+    background-color: aqua;
+}

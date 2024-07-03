@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(0, 0, 0, 0.844) !important;
+}
+.search-bar{
+    margin-top: 100px;
+    input{
+        width: 100%;
+        padding: 10px;
+        border: 2px solid grey;
+        background-color:  transparent;
+        border-radius: 10px;
+    }
+    .filter{
+        justify-content: center;
+    }
+    #dropdown-basic{
+        background-color: transparent;
+        color: red;
+        border: 1px solid grey;
+    }
+}

@@ -1,13 +1,167 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    overflow-x: hidden;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.79);
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.5s ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-transparent {
+    background-color: transparent;
+}
+
+.navbar-black {
+    background-color: black;
+}
+.name{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.b1 {
+    padding: 5px;
+    padding-inline: 12px;
+    border: none;
+    color: white;
+    background-color: rgb(240, 6, 6);
+    font-weight: 500;
+}
+.login{
+    border: 2px solid red;
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    padding-inline: 12px;
+    margin-right: 10px;
+
+}
+.login:hover{
+    background-color: red;
+    color: white;
+}
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+  
+  .c1 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .c2 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    z-index: 2;
+    width: 100%;
+    padding: 20px; /* Optional: to give some padding inside the container */
+  }
+  
+.b2{
+    background-color: red;
+    border: none;
+    color: white;
+    padding-inline: 15px;
+    border-radius: 20px;
+}
+
+.b3{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px;
+    padding-inline: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.user{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+}
+
+@media (max-width: 992px) {
+    .c2 {
+        top: 20%;
+        left: 5%;
+    }
+
+    .movie-title {
+        font-size: 45px;
+    }
+
+    .movie-description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .c2 {
+        top: 15%;
+        left: 5%;
+    }
+
+    .movie-title {
+        font-size: 35px;
+    }
+
+    .movie-description {
+        font-size: 14px;
+    }
+
+    .b3 {
+        font-size: 20px;
+        padding-inline: 15px;
+    }
+    .b1{
+        font-size: 10px;
+    }
+   
+}
+
+@media (max-width: 576px) {
+    .logo{
+        .brand{
+            font-size: 15px !important;
+        }
+       .p1{
+        font-size: 14px !important;
+       }
+       .b1{
+        padding: 1px;
+        margin-right: 50px;
+        font-size: 12px;
+       }
+    }
+    .c2 {
+        top: 5%;
+        left: 5%;
+    }
+
+    .movie-title {
+        font-size: 18px !important;
+    }
+
+    .movie-description {
+        font-size: 10px !important;
+    }
+
+    .b3 {
+        font-size: 18px;
+        padding-inline: 10px;
+    }
 }

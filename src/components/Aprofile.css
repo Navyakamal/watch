@@ -1,0 +1,13 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100% ;
+    width: 250px;
+    background-color: #343a40; /* Bootstrap dark color */
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .n1:hover{
+    background-color: rgba(18, 15, 15, 0.725);
+  }
